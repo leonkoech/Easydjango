@@ -9,7 +9,11 @@
 
 **easydjango is an automation software for creating django webapps with one command.**
 
-I created the project to help me easily create a django project and save lots of time, it also automatically runs the server and opens the browser with selenium after it has created the webapp
+I created easydjango to help me easily create django projects (I'm kind of lazy sometimes) and save deverlopment time
+
+Easydjango also automatically runs the server and opens the browser with selenium after it has created the webapp
+
+## Usage
 
 ``easydjango create [project_name] [app_name] [optional:port_number]``
 
@@ -28,16 +32,28 @@ verify with
 easydjango requires the following to open a browser window once it is done creating the web app.
 
 
-*selenium 3.141.0 [documentation](https://selenium-python.readthedocs.io/api.html#selenium.webdriver.remote.webdriver.WebDriver.current_url)[download](https://pypi.org/project/selenium/)
+1. selenium 3.141.0 
 
-*chrome version 80 [download](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySwcmdG9S6AfkK0EmkAgCUchDrG_NLrQmbyZ5PcTMYACxK2po4Tsq5nhoCZh0QAvD_BwE&gclsrc=aw.ds)
+- [documentation](https://selenium-python.readthedocs.io/api.html#selenium.webdriver.remote.webdriver.WebDriver.current_url)
 
-*chromedriver 80.0.3987.106[download](https://chromedriver.chromium.org/downloads)
-python 3.7.3+ [download](https://www.python.org/downloads/)
+- [download](https://pypi.org/project/selenium/)
+
+2. chrome version 80 
+
+- [download](https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAjwpqv0BRABEiwA-TySwcmdG9S6AfkK0EmkAgCUchDrG_NLrQmbyZ5PcTMYACxK2po4Tsq5nhoCZh0QAvD_BwE&gclsrc=aw.ds)
+
+3. chromedriver 80.0.3987.106
+
+- [download](https://chromedriver.chromium.org/downloads)
+
+
+4. python 3.7.3+ 
+
+- [download](https://www.python.org/downloads/)
 
 ## Setup
 
-If you are going to use the chrome driver make sure chrome driver and the chrome binary are set to the right directory in the easydjango.py file
+If you are going to let easydjango open a browser, make sure chrome driver and the chrome binary are set to the right directory in the easydjango.py file
 
 ```
         options.binary_location = "/usr/bin/google-chrome"
