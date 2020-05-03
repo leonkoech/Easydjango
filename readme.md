@@ -9,7 +9,7 @@
 
 **easydjango is an automation software for creating django webapps with one command.**
 
-I created easydjango to help me easily create django projects (I'm kind of lazy sometimes) and save deverlopment time
+I created easydjango to help me easily create django projects (I'm kinda lazy sometimes) and save major django development time.
 
 Easydjango also automatically runs the server and opens the browser with selenium after it has created the webapp
 
